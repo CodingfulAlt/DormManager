@@ -19,7 +19,11 @@ src/main/java/uni/pu/fmi/
   service/    - бизнес логика (ApplicationService, PaymentService, AuthService)
   exception/  - BusinessException
 src/test/java/uni/pu/fmi/
-  DormManagerSteps.java  - step definitions (Gherkin -> Java)
+  TestContext.java       - споделено състояние + services (PicoContainer DI)
+  CommonSteps.java       - общи стъпки (актьори, стаи, грешки)
+  ApplicationSteps.java  - стъпки за Кандидатстване (UC2)
+  ApprovalSteps.java     - стъпки за Одобряване/отхвърляне (UC6)
+  PaymentSteps.java      - стъпки за Плащане на наем (UC4)
   RunCucumberTest.java   - JUnit runner
 src/test/resources/features/
   application.feature
@@ -39,6 +43,6 @@ Cucumber докладът се генерира в `target/cucumber-report.html`
 
 - Java 17
 - Maven
-- Cucumber 7.18.0 (cucumber-java, cucumber-junit)
+- Cucumber 7.18.0 (cucumber-java, cucumber-junit, cucumber-picocontainer)
 - JUnit 4.13.2
 - Mock данни (in-memory), без external API
