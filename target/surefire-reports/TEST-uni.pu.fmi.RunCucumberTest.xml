@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="uni.pu.fmi.RunCucumberTest" time="1.47" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\2026.pu_3_year\iii year - part 2\Анализ на спецификации\proekt\Door Manager\dormmanager\target\test-classes;E:\2026.pu_3_year\iii year - part 2\Анализ на спецификации\proekt\Door Manager\dormmanager\target\classes;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\anonymous\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\anonymous\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-junit\7.18.0\cucumber-junit-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-picocontainer\7.18.0\cucumber-picocontainer-7.18.0.jar;C:\Users\anonymous\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\anonymous\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\anonymous\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="Europe/Sofia"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="E:\2026.pu_3_year\iii year - part 2\proektirane\jdk\bin"/>
+    <property name="sun.java.command" value="C:\Users\anonymous\AppData\Local\Temp\surefire17220435616990296944\surefirebooter-20260601124906727_3.jar C:\Users\anonymous\AppData\Local\Temp\surefire17220435616990296944 2026-06-01T12-49-06_539-jvmRun1 surefire-20260601124906727_1tmp surefire_0-20260601124906727_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\2026.pu_3_year\iii year - part 2\Анализ на спецификации\proekt\Door Manager\dormmanager\target\test-classes;E:\2026.pu_3_year\iii year - part 2\Анализ на спецификации\proekt\Door Manager\dormmanager\target\classes;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\anonymous\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\anonymous\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-junit\7.18.0\cucumber-junit-7.18.0.jar;C:\Users\anonymous\.m2\repository\io\cucumber\cucumber-picocontainer\7.18.0\cucumber-picocontainer-7.18.0.jar;C:\Users\anonymous\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\anonymous\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\anonymous\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\anonymous"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="E:\2026.pu_3_year\iii year - part 2\proektirane\jdk"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\2026.pu_3_year\iii year - part 2\Анализ на спецификации\proekt\Door Manager\dormmanager"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\anonymous\AppData\Local\Temp\surefire17220435616990296944\surefirebooter-20260601124906727_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.11+10-LTS"/>
+    <property name="user.name" value="anonymous"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-13877171"/>
+    <property name="maven.ext.class.path" value="E:\java\IntelliJ IDEA 2026.1.1\plugins\maven\lib\intellij.maven.rt\maven-event-listener.jar"/>
+    <property name="localRepository" value="C:\Users\anonymous\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\ANONYM~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2026.1.1"/>
+    <property name="java.version" value="21.0.11"/>
+    <property name="user.dir" value="E:\2026.pu_3_year\iii year - part 2\Анализ на спецификации\proekt\Door Manager\dormmanager"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="E:\2026.pu_3_year\iii year - part 2\proektirane\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\AI\Python;F:\AI\Python\Scripts;F:\AI\Python;F:\AI\Python\Scripts;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Microsoft MPI\Bin\;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;E:\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;E:\coding random sh\Android studio\jbr\bin;E:\androidStudioSDK\platform-tools\;C:\Users\anonymous\AppData\Local\Programs\Microsoft VS Code\bin;F:\AI\Python;F:\AI\Python\Scripts;F:\AI\Python\Scripts\;F:\AI\Python\;E:\coding random sh\Android studio\jbr\bin;F:\AI\Python;F:\AI\Python\Scripts;F:\AI\Python;F:\AI\Python\Scripts;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Microsoft MPI\Bin\;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;E:\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;E:\coding random sh\Android studio\jbr\bin;E:\androidStudioSDK\platform-tools\;C:\Users\anonymous\AppData\Local\Programs\Microsoft VS Code\bin;F:\AI\Python;F:\AI\Python\Scripts;E:\androidStudioSDK\platform-tools\;C:\Users\anonymous\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="21.0.11+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="C:\Users\anonymous\.m2\repository"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Успешно кандидатстване за свободна стая" classname="Кандидатстване за стая" time="0.22">
+    <system-out><![CDATA[
+Scenario: Успешно кандидатстване за свободна стая     &amp#27;[90m# src/test/resources/features/application.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mстудент с имейл &amp#27;[0m&amp#27;[32m&amp#27;[1m"ivan@uni.bg"&amp#27;[0m                 &amp#27;[90m# uni.pu.fmi.CommonSteps.студентСИмейл(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mв системата има свободна стая от тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"SINGLE"&amp#27;[0m   &amp#27;[90m# uni.pu.fmi.CommonSteps.имаСвободнаСтая(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mстудентът кандидатства за стая от тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"SINGLE"&amp#27;[0m &amp#27;[90m# uni.pu.fmi.ApplicationSteps.студентътКандидатства(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mкандидатурата е успешно подадена&amp#27;[0m               &amp#27;[90m# uni.pu.fmi.ApplicationSteps.кандидатуратаУспешна()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mстатусът на кандидатурата е &amp#27;[0m&amp#27;[32m&amp#27;[1m"PENDING"&amp#27;[0m           &amp#27;[90m# uni.pu.fmi.ApplicationSteps.статусътНаКандидатурата(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Преглед на свободни стаи преди кандидатстване" classname="Кандидатстване за стая" time="0.026">
+    <system-out><![CDATA[
+Scenario: Преглед на свободни стаи преди кандидатстване   &amp#27;[90m# src/test/resources/features/application.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mстудент с имейл &amp#27;[0m&amp#27;[32m&amp#27;[1m"petar@uni.bg"&amp#27;[0m                    &amp#27;[90m# uni.pu.fmi.CommonSteps.студентСИмейл(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mв системата има &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m свободни стаи от тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"DOUBLE"&amp#27;[0m     &amp#27;[90m# uni.pu.fmi.CommonSteps.имаНСвободниСтаи(int,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mстудентът прегледа свободните стаи от тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"DOUBLE"&amp#27;[0m &amp#27;[90m# uni.pu.fmi.ApplicationSteps.студентътПрегледаСвободниСтаи(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mсе показват &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m свободни стаи&amp#27;[0m                        &amp#27;[90m# uni.pu.fmi.ApplicationSteps.сеПоказватСтаи(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Кандидатстване при вече съществуваща активна кандидатура" classname="Кандидатстване за стая" time="0.023">
+    <system-out><![CDATA[
+Scenario: Кандидатстване при вече съществуваща активна кандидатура &amp#27;[90m# src/test/resources/features/application.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mстудент с имейл &amp#27;[0m&amp#27;[32m&amp#27;[1m"maria@uni.bg"&amp#27;[0m                             &amp#27;[90m# uni.pu.fmi.CommonSteps.студентСИмейл(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mв системата има свободна стая от тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"SINGLE"&amp#27;[0m                &amp#27;[90m# uni.pu.fmi.CommonSteps.имаСвободнаСтая(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mстудентът вече има активна кандидатура&amp#27;[0m                       &amp#27;[90m# uni.pu.fmi.ApplicationSteps.студентътВечеИмаКандидатура()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mстудентът кандидатства за стая от тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"SINGLE"&amp#27;[0m              &amp#27;[90m# uni.pu.fmi.ApplicationSteps.студентътКандидатства(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mкандидатурата е неуспешна&amp#27;[0m                                   &amp#27;[90m# uni.pu.fmi.ApplicationSteps.кандидатуратаНеуспешна()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mгрешката е &amp#27;[0m&amp#27;[32m&amp#27;[1m"Вече имате активна кандидатура"&amp#27;[0m                  &amp#27;[90m# uni.pu.fmi.CommonSteps.грешкатаЕ(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Кандидатстване без избран тип стая" classname="Кандидатстване за стая" time="0.015">
+    <system-out><![CDATA[
+Scenario: Кандидатстване без избран тип стая         &amp#27;[90m# src/test/resources/features/application.feature:31&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mстудент с имейл &amp#27;[0m&amp#27;[32m&amp#27;[1m"georgi@uni.bg"&amp#27;[0m              &amp#27;[90m# uni.pu.fmi.CommonSteps.студентСИмейл(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mстудентът кандидатства без да избере тип стая&amp#27;[0m &amp#27;[90m# uni.pu.fmi.ApplicationSteps.студентътКандидатстваБезТип()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mкандидатурата е неуспешна&amp#27;[0m                     &amp#27;[90m# uni.pu.fmi.ApplicationSteps.кандидатуратаНеуспешна()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mгрешката е &amp#27;[0m&amp#27;[32m&amp#27;[1m"Невалиден тип стая"&amp#27;[0m                &amp#27;[90m# uni.pu.fmi.CommonSteps.грешкатаЕ(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Администратор се опитва да кандидатства за стая" classname="Кандидатстване за стая" time="0.026">
+    <system-out><![CDATA[
+Scenario: Администратор се опитва да кандидатства за стая    &amp#27;[90m# src/test/resources/features/application.feature:37&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mадминистратор с имейл &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin@uni.bg"&amp#27;[0m                 &amp#27;[90m# uni.pu.fmi.CommonSteps.администраторСИмейл(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mв системата има свободна стая от тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"SINGLE"&amp#27;[0m          &amp#27;[90m# uni.pu.fmi.CommonSteps.имаСвободнаСтая(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mпотребителят кандидатства за стая от тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"SINGLE"&amp#27;[0m     &amp#27;[90m# uni.pu.fmi.ApplicationSteps.потребителятКандидатства(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mкандидатурата е неуспешна&amp#27;[0m                             &amp#27;[90m# uni.pu.fmi.ApplicationSteps.кандидатуратаНеуспешна()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mгрешката е &amp#27;[0m&amp#27;[32m&amp#27;[1m"Само студент може да кандидатства за стая"&amp#27;[0m &amp#27;[90m# uni.pu.fmi.CommonSteps.грешкатаЕ(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Успешно одобряване на кандидатура с назначаване на стая" classname="Одобряване и отхвърляне на кандидатура" time="0.014">
+    <system-out><![CDATA[
+Scenario: Успешно одобряване на кандидатура с назначаване на стая &amp#27;[90m# src/test/resources/features/approval.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mадминистратор с имейл &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin@uni.bg"&amp#27;[0m                      &amp#27;[90m# uni.pu.fmi.CommonSteps.администраторСИмейл(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mима подадена кандидатура от студент за тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"SINGLE"&amp#27;[0m         &amp#27;[90m# uni.pu.fmi.ApprovalSteps.имаПодаденаКандидатура(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mв системата има свободна стая от тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"SINGLE"&amp#27;[0m               &amp#27;[90m# uni.pu.fmi.CommonSteps.имаСвободнаСтая(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mадминистраторът одобри кандидатурата&amp#27;[0m                       &amp#27;[90m# uni.pu.fmi.ApprovalSteps.администраторътОдобри()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mкандидатурата е със статус &amp#27;[0m&amp#27;[32m&amp#27;[1m"APPROVED"&amp#27;[0m                      &amp#27;[90m# uni.pu.fmi.ApprovalSteps.кандидатуратаСъсСтатус(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mна студента е назначена стая&amp#27;[0m                                &amp#27;[90m# uni.pu.fmi.ApprovalSteps.наСтудентаНазначенаСтая()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mстаята е със статус &amp#27;[0m&amp#27;[32m&amp#27;[1m"OCCUPIED"&amp#27;[0m                              &amp#27;[90m# uni.pu.fmi.ApprovalSteps.стаятаСъсСтатус(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Успешно отхвърляне на кандидатура с причина" classname="Одобряване и отхвърляне на кандидатура" time="0.017">
+    <system-out><![CDATA[
+Scenario: Успешно отхвърляне на кандидатура с причина                &amp#27;[90m# src/test/resources/features/approval.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mадминистратор с имейл &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin@uni.bg"&amp#27;[0m                         &amp#27;[90m# uni.pu.fmi.CommonSteps.администраторСИмейл(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mима подадена кандидатура от студент за тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"DOUBLE"&amp#27;[0m            &amp#27;[90m# uni.pu.fmi.ApprovalSteps.имаПодаденаКандидатура(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mадминистраторът отхвърли кандидатурата с причина &amp#27;[0m&amp#27;[32m&amp#27;[1m"Няма места"&amp#27;[0m &amp#27;[90m# uni.pu.fmi.ApprovalSteps.администраторътОтхвърли(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mкандидатурата е със статус &amp#27;[0m&amp#27;[32m&amp#27;[1m"REJECTED"&amp#27;[0m                         &amp#27;[90m# uni.pu.fmi.ApprovalSteps.кандидатуратаСъсСтатус(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Одобряване без налични свободни стаи" classname="Одобряване и отхвърляне на кандидатура" time="0.013">
+    <system-out><![CDATA[
+Scenario: Одобряване без налични свободни стаи            &amp#27;[90m# src/test/resources/features/approval.feature:25&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mадминистратор с имейл &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin@uni.bg"&amp#27;[0m              &amp#27;[90m# uni.pu.fmi.CommonSteps.администраторСИмейл(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mима подадена кандидатура от студент за тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"SINGLE"&amp#27;[0m &amp#27;[90m# uni.pu.fmi.ApprovalSteps.имаПодаденаКандидатура(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mадминистраторът одобри кандидатурата&amp#27;[0m               &amp#27;[90m# uni.pu.fmi.ApprovalSteps.администраторътОдобри()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mодобряването е неуспешно&amp#27;[0m                           &amp#27;[90m# uni.pu.fmi.ApprovalSteps.одобряванетоНеуспешно()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mгрешката е &amp#27;[0m&amp#27;[32m&amp#27;[1m"Няма свободни стаи от желания тип"&amp#27;[0m      &amp#27;[90m# uni.pu.fmi.CommonSteps.грешкатаЕ(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Студент се опитва да одобри кандидатура" classname="Одобряване и отхвърляне на кандидатура" time="0.023">
+    <system-out><![CDATA[
+Scenario: Студент се опитва да одобри кандидатура                   &amp#27;[90m# src/test/resources/features/approval.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mстудент с имейл &amp#27;[0m&amp#27;[32m&amp#27;[1m"ivan@uni.bg"&amp#27;[0m                               &amp#27;[90m# uni.pu.fmi.CommonSteps.студентСИмейл(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mима подадена кандидатура от студент за тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"SINGLE"&amp#27;[0m           &amp#27;[90m# uni.pu.fmi.ApprovalSteps.имаПодаденаКандидатура(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mв системата има свободна стая от тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"SINGLE"&amp#27;[0m                 &amp#27;[90m# uni.pu.fmi.CommonSteps.имаСвободнаСтая(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mпотребителят се опита да одобри кандидатурата&amp#27;[0m                &amp#27;[90m# uni.pu.fmi.ApprovalSteps.потребителятСеОпитаДаОдобри()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mодобряването е неуспешно&amp#27;[0m                                     &amp#27;[90m# uni.pu.fmi.ApprovalSteps.одобряванетоНеуспешно()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mгрешката е &amp#27;[0m&amp#27;[32m&amp#27;[1m"Само администратор може да обработва кандидатури"&amp#27;[0m &amp#27;[90m# uni.pu.fmi.CommonSteps.грешкатаЕ(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Одобряване на вече обработена кандидатура" classname="Одобряване и отхвърляне на кандидатура" time="0.016">
+    <system-out><![CDATA[
+Scenario: Одобряване на вече обработена кандидатура       &amp#27;[90m# src/test/resources/features/approval.feature:40&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mадминистратор с имейл &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin@uni.bg"&amp#27;[0m              &amp#27;[90m# uni.pu.fmi.CommonSteps.администраторСИмейл(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mима подадена кандидатура от студент за тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"SINGLE"&amp#27;[0m &amp#27;[90m# uni.pu.fmi.ApprovalSteps.имаПодаденаКандидатура(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mв системата има &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m свободни стаи от тип &amp#27;[0m&amp#27;[32m&amp#27;[1m"SINGLE"&amp#27;[0m     &amp#27;[90m# uni.pu.fmi.CommonSteps.имаНСвободниСтаи(int,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mкандидатурата вече е одобрена&amp#27;[0m                       &amp#27;[90m# uni.pu.fmi.ApprovalSteps.кандидатуратаВечеОдобрена()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mадминистраторът одобри кандидатурата&amp#27;[0m               &amp#27;[90m# uni.pu.fmi.ApprovalSteps.администраторътОдобри()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mодобряването е неуспешно&amp#27;[0m                           &amp#27;[90m# uni.pu.fmi.ApprovalSteps.одобряванетоНеуспешно()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mгрешката е &amp#27;[0m&amp#27;[32m&amp#27;[1m"Кандидатурата вече е обработена"&amp#27;[0m        &amp#27;[90m# uni.pu.fmi.CommonSteps.грешкатаЕ(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Успешно плащане на наем с достатъчна сума" classname="Плащане на наем" time="0.029">
+    <system-out><![CDATA[
+Scenario: Успешно плащане на наем с достатъчна сума                &amp#27;[90m# src/test/resources/features/payment.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mнастанен студент с имейл &amp#27;[0m&amp#27;[32m&amp#27;[1m"ivan@uni.bg"&amp#27;[0m&amp#27;[32m в стая с наем &amp#27;[0m&amp#27;[32m&amp#27;[1m150.0&amp#27;[0m &amp#27;[90m# uni.pu.fmi.PaymentSteps.настаненСтудент(java.lang.String,double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mстудентът плати наем за период &amp#27;[0m&amp#27;[32m&amp#27;[1m"2026-03"&amp#27;[0m&amp#27;[32m със сума &amp#27;[0m&amp#27;[32m&amp#27;[1m150.0&amp#27;[0m     &amp#27;[90m# uni.pu.fmi.PaymentSteps.студентътПлати(java.lang.String,double)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mплащането е успешно&amp#27;[0m                                         &amp#27;[90m# uni.pu.fmi.PaymentSteps.плащанетоУспешно()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mстатусът на плащането е &amp#27;[0m&amp#27;[32m&amp#27;[1m"PAID"&amp#27;[0m                               &amp#27;[90m# uni.pu.fmi.PaymentSteps.статусътНаПлащането(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Преглед на история на плащания" classname="Плащане на наем" time="0.011">
+    <system-out><![CDATA[
+Scenario: Преглед на история на плащания                            &amp#27;[90m# src/test/resources/features/payment.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mнастанен студент с имейл &amp#27;[0m&amp#27;[32m&amp#27;[1m"maria@uni.bg"&amp#27;[0m&amp#27;[32m в стая с наем &amp#27;[0m&amp#27;[32m&amp#27;[1m200.0&amp#27;[0m &amp#27;[90m# uni.pu.fmi.PaymentSteps.настаненСтудент(java.lang.String,double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mстудентът е платил наем за период &amp#27;[0m&amp#27;[32m&amp#27;[1m"2026-01"&amp#27;[0m                   &amp#27;[90m# uni.pu.fmi.PaymentSteps.студентътЕПлатил(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mстудентът е платил наем за период &amp#27;[0m&amp#27;[32m&amp#27;[1m"2026-02"&amp#27;[0m                   &amp#27;[90m# uni.pu.fmi.PaymentSteps.студентътЕПлатил(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mстудентът прегледа историята на плащанията&amp#27;[0m                   &amp#27;[90m# uni.pu.fmi.PaymentSteps.студентътПрегледаИстория()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mсе показват &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m плащания&amp#27;[0m                                       &amp#27;[90m# uni.pu.fmi.PaymentSteps.сеПоказватПлащания(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Плащане на вече платен наем" classname="Плащане на наем" time="0.013">
+    <system-out><![CDATA[
+Scenario: Плащане на вече платен наем                               &amp#27;[90m# src/test/resources/features/payment.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mнастанен студент с имейл &amp#27;[0m&amp#27;[32m&amp#27;[1m"petar@uni.bg"&amp#27;[0m&amp#27;[32m в стая с наем &amp#27;[0m&amp#27;[32m&amp#27;[1m150.0&amp#27;[0m &amp#27;[90m# uni.pu.fmi.PaymentSteps.настаненСтудент(java.lang.String,double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mстудентът вече е платил наем за период &amp#27;[0m&amp#27;[32m&amp#27;[1m"2026-03"&amp#27;[0m              &amp#27;[90m# uni.pu.fmi.PaymentSteps.студентътВечеЕПлатил(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mстудентът плати наем за период &amp#27;[0m&amp#27;[32m&amp#27;[1m"2026-03"&amp#27;[0m&amp#27;[32m със сума &amp#27;[0m&amp#27;[32m&amp#27;[1m150.0&amp#27;[0m      &amp#27;[90m# uni.pu.fmi.PaymentSteps.студентътПлати(java.lang.String,double)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mплащането е неуспешно&amp#27;[0m                                        &amp#27;[90m# uni.pu.fmi.PaymentSteps.плащанетоНеуспешно()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mгрешката е &amp#27;[0m&amp#27;[32m&amp#27;[1m"Наемът вече е платен за този период"&amp#27;[0m              &amp#27;[90m# uni.pu.fmi.CommonSteps.грешкатаЕ(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Плащане с недостатъчна сума" classname="Плащане на наем" time="0.01">
+    <system-out><![CDATA[
+Scenario: Плащане с недостатъчна сума                                &amp#27;[90m# src/test/resources/features/payment.feature:30&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mнастанен студент с имейл &amp#27;[0m&amp#27;[32m&amp#27;[1m"georgi@uni.bg"&amp#27;[0m&amp#27;[32m в стая с наем &amp#27;[0m&amp#27;[32m&amp#27;[1m200.0&amp#27;[0m &amp#27;[90m# uni.pu.fmi.PaymentSteps.настаненСтудент(java.lang.String,double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mстудентът плати наем за период &amp#27;[0m&amp#27;[32m&amp#27;[1m"2026-03"&amp#27;[0m&amp#27;[32m със сума &amp#27;[0m&amp#27;[32m&amp#27;[1m100.0&amp#27;[0m       &amp#27;[90m# uni.pu.fmi.PaymentSteps.студентътПлати(java.lang.String,double)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mплащането е неуспешно&amp#27;[0m                                         &amp#27;[90m# uni.pu.fmi.PaymentSteps.плащанетоНеуспешно()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mгрешката е &amp#27;[0m&amp#27;[32m&amp#27;[1m"Недостатъчна сума за плащане на наема"&amp#27;[0m             &amp#27;[90m# uni.pu.fmi.CommonSteps.грешкатаЕ(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Плащане от студент който не е настанен" classname="Плащане на наем" time="0.008">
+    <system-out><![CDATA[
+Scenario: Плащане от студент който не е настанен                   &amp#27;[90m# src/test/resources/features/payment.feature:36&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mстудент с имейл &amp#27;[0m&amp#27;[32m&amp#27;[1m"stoyan@uni.bg"&amp#27;[0m&amp#27;[32m който не е настанен в стая&amp#27;[0m &amp#27;[90m# uni.pu.fmi.PaymentSteps.студентБезСтая(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mстудентът плати наем за период &amp#27;[0m&amp#27;[32m&amp#27;[1m"2026-03"&amp#27;[0m&amp#27;[32m със сума &amp#27;[0m&amp#27;[32m&amp#27;[1m150.0&amp#27;[0m     &amp#27;[90m# uni.pu.fmi.PaymentSteps.студентътПлати(java.lang.String,double)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mплащането е неуспешно&amp#27;[0m                                       &amp#27;[90m# uni.pu.fmi.PaymentSteps.плащанетоНеуспешно()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mгрешката е &amp#27;[0m&amp#27;[32m&amp#27;[1m"Не сте настанен в стая"&amp#27;[0m                          &amp#27;[90m# uni.pu.fmi.CommonSteps.грешкатаЕ(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
